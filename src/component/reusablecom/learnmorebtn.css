@@ -1,0 +1,15 @@
+.more-btn {
+  text-transform: capitalize;
+  box-shadow: 0px 0 20px #aaa;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  background-color: var(--links-color);
+  color: #fff;
+}
+
+.more-btn:hover {
+  background-color: #fff;
+  color: var(--links-color);
+  border-color: var(--links-color) !important;
+}

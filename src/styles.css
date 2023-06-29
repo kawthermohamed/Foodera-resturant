@@ -1,0 +1,17 @@
+:root {
+  --header-font: "Bebas Neue", sans-serif;
+  --App-font: "Quicksand", sans-serif;
+  --links-color: rgb(168, 45, 73);
+  --heading-color: #43121d;
+}
+
+.App {
+}
+
+/* .header {
+  font-family: var(--header-font);
+}
+
+.nav-color {
+  color: var(--links-color);
+} */

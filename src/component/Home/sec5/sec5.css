@@ -1,0 +1,28 @@
+.sec5 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--App-font);
+}
+
+.sec5 {
+  background-image: url(https://i0.wp.com/diplomartbrussels.com/wp-content/uploads/2020/09/food-background-images-94-images-in-co-381169-png-images-pngio-food-background-png-1440_619.png?fit=1440%2C619&ssl=1);
+  background-size: cover;
+  background-position: center;
+}
+.sec5-text {
+  width: 60%;
+  margin: auto;
+}
+.sec5 .video {
+  color: var(--heading-color) !important;
+  position: relative;
+}
+.sec5 .video:after {
+  content: "";
+  border: 10px solid;
+  border-color: transparent transparent transparent var(--heading-color);
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}

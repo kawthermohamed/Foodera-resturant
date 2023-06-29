@@ -1,0 +1,38 @@
+.sec1 {
+  margin-top: 83px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--App-font);
+  background-image: url(https://img.freepik.com/premium-photo/fried-rice-white-plate-white-background_51524-20620.jpg?w=2000);
+  background-position: center;
+  background-size: cover;
+}
+
+.sec1 h2 {
+  color: var(--heading-color);
+  font-size: 50px;
+}
+
+.sec1 p {
+}
+.order-btn,
+.more-btn {
+  text-transform: capitalize;
+  box-shadow: 0px 0 20px #aaa;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+.order-btn {
+  background-color: var(--links-color);
+  color: #fff;
+}
+.more-btn {
+  background-color: #fff;
+}
+.order-btn:hover,
+.more-btn:hover {
+  background-color: #fff;
+  color: var(--links-color);
+  border-color: var(--links-color) !important;
+}

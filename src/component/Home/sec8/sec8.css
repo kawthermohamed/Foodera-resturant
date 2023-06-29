@@ -1,0 +1,15 @@
+.sec8 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--App-font);
+}
+.sec8 h2 {
+  color: var(--heading-color);
+}
+.sec8 h3 {
+  font-size: 18px;
+}
+
+.sec8 h3:before {
+  content: "~";
+}

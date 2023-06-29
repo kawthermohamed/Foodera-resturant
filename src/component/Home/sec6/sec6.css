@@ -1,0 +1,32 @@
+.sec6 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--App-font);
+}
+.sec6-text {
+  width: 60%;
+  margin: auto;
+}
+.card {
+  border: none;
+  text-align: left;
+}
+.price {
+  font-size: 25px;
+}
+.price .sale {
+  color: var(--links-color);
+}
+.price .origin {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin: auto;
+  }
+  .m-card:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+}

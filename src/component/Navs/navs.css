@@ -1,0 +1,48 @@
+:root {
+  --header-font: "Bebas Neue", sans-serif;
+  --App-font: "Quicksand", sans-serif;
+  --links-color: rgb(168, 45, 73);
+  --heading-color: #43121d;
+}
+body {
+  height: 1000px;
+}
+nav {
+  background-color: #fff;
+  color: var(--links-color);
+  max-width: 100%;
+  padding: 0 !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 15px #bbb;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar .container {
+  padding: 0;
+}
+.navbar-nav {
+  align-items: center;
+}
+.navbar-nav a {
+  color: var(--links-color);
+  text-transform: uppercase;
+}
+
+.phone-link {
+  background-color: var(--links-color);
+  color: #fff !important;
+  border: 2px solid var(--links-color);
+  transition: 1s;
+  margin-left: 10px;
+}
+
+.phone-link:hover {
+  background-color: #fff;
+  color: var(--links-color) !important;
+}
+
+.navbar-brand img {
+  width: 80%;
+}

@@ -1,0 +1,11 @@
+.sec3 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--App-font);
+}
+
+@media (max-width: 992px) {
+  .sec3 img {
+    margin-bottom: 20px;
+  }
+}

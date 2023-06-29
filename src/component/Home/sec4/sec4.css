@@ -1,0 +1,26 @@
+.sec4 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: var(--App-font);
+}
+
+@media (max-width: 992px) {
+  .sec4 img {
+    margin-top: 20px;
+  }
+}
+.sec4 ul li {
+  position: relative;
+}
+
+.sec4 ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--links-color);
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
